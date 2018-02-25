@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="external.css" type="text/css"/>
+    <title>Caesar - 40277803</title>
+</head>
+<body>
+    <div id="indexList">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="rot13.html">Rot 13</a></li>
+            <li><a href="caesar.html">Caesar</a></li>
+            <li><a href="atbash.html">AtBash</a></li>
+            <li><a href="design.html">Design</a><li>
+        </ul>
+    </div>
+    </br>
+    <h2>Caesar Cipher</h2>
+
+    <div id="CaesarImg">
+        <img src="CipherImages/Caesar.jpg" />
+    </div>
+
+    <p id="desc">
+        The Caesar Cipher is another form of a substitution cipher. <br/>
+        The user inputs a message, but rather than having a set shift they also have the choice of the value of the shift.</br>
+        This shift acts as the key for the cipher, and the same key is needed to be able to decrypt the message.
+    </p>
+
+    <div id="input_area">
+        <textarea rows ="1" cols ="50" autofocus id ="message" placeholder="Enter your message here."></textarea></br>
+        <textarea rows ="1" cols ="50" autofocus id ="shift" placeholder="Enter shift amount here."></textarea></br>
+        <button type="button" onclick="caesarEncrypt()" id="encrypt_button">Encrypt</button>
+        <button type="button" onclick="caesarDecrypt()" id="decrypt_button">Decrypt</button>
+    </div>
+    <div id="output_area" align="center">
+            <p>
+                This is your secret message:<br/>
+                <div id="output"></div>
+            </p>
+    </div>
+    <script type="text/javascript" src="caesar.js"></script>
+
+
+</body>
+</html>

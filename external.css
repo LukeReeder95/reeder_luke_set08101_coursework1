@@ -1,0 +1,85 @@
+html{
+    height: 100%;
+}
+body{height: 100%;
+    margin:0;
+    background:blue;
+    background: linear-gradient(#d0e8f2,#76cff2);
+}
+#input_area
+{
+    text-align: center;
+    font-size: 14pt;
+    font: Arial;
+}
+#output_area
+{
+    text-align: center;
+    font-size:14pt;
+    font: Arial;
+}
+h2
+{
+    margin: auto;
+    text-align: center;
+}
+#desc
+{
+    text-align: center;
+    font-size: 14pt;
+    font: Arial;
+}
+#indexList
+{
+    display:block;
+    text-align: left;
+    border :5px outset;
+    border-color: #3b3e44;
+    width: 99.5%;
+    height: 8%;
+}
+ul
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d1d952;
+}
+
+li
+{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-size: 14pt;
+    padding: 27px 165px;
+    text-decoration: none;
+}
+
+#AtBashImg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:28%;
+}
+
+#RotImg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:47%;
+}
+
+#CaesarImg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:23%;
+}

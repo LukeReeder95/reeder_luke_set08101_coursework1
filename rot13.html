@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="external.css" type="text/css"/>
+    <title>Rot13 - 40277803</title>
+</head>
+<body>
+    <div id="indexList">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+            <li><a href="rot13.html">Rot 13</a></li>
+            <li><a href="caesar.html">Caesar</a></li>
+            <li><a href="atbash.html">AtBash</a></li>
+            <li><a href="design.html">Design</a><li>
+        </ul>
+    </div>
+</br>
+    <h2>Rot13 Cipher</h2>
+
+    <div id="RotImg">
+        <img src="CipherImages/Rot13.png"/>
+    </div>
+
+    <p id="desc">
+        The Rot13 Cipher is a fairly simple substitution cipher based off the Caesar Cipher.<br/>
+        The way the Rot13 cipher encodes its messages is by moving each letter along 13 places in the alphabet, hence the 13 in the name.<br/>
+        When the letters reach Z as they're being moved along, they loop back to A and move through as normal again.
+    </p>
+
+    <div id="input_area">
+        <textarea rows ="1" cols ="50" autofocus id ="message" placeholder="Enter your message here."></textarea></br>
+        <button type="button" onclick="rot13Encrypt()" id="encrypt_button">Encrypt</button>
+        <button type="button" onclick="rot13Encrypt()" id="decrypt_button">Decrypt</button>
+    </div>
+    <div id="output_area">
+            <p>
+                This is your secret message:<br/>
+                <div id="output"></div>
+            </p>
+    </div>
+    <script type="text/javascript" src="rot13.js"></script>
+
+
+</body>
+</html>
